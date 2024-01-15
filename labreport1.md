@@ -12,3 +12,7 @@ after running the command cd cs.txt, it said "no such file or directory". this w
 after running the command cd, it does not have a specific directory path, bringing it back to the home directory.
 
 *below is running the command of ls with no arguments*
+![Image](solelyls.png)
+after running the command ls, it lists every folder in the given path. in this case, the path was the home directory, listing lecture1 as the only folder.
+
+*below is running the command of ls with a path to a directory, which is lecture1*
