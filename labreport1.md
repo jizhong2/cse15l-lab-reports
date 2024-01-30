@@ -5,7 +5,7 @@ working directory was from home.
 after entering command ```cd lecture1```, it moved from home (user@sahara -) to (user@sahara -/lecture1), entering the directory lecture1. this is not an error.
 
 *below is running the command of cd with a path to a text file, which is cs.txt as an argument*
-![Image](cdfile.png)
+![Image](cdfile2.0.png)
 working directory was from home.
 after running the ```command cd cs.txt```, it said "no such file or directory". this would be an error as directories are folders that store information, such as files. to cd into a file would not be possible as text files do not store other files, therefore would not be considered a directory.
 
@@ -25,7 +25,7 @@ working directory was from home.
 after running the command ```ls lecture1```, it listed the folders and files within lecture1. this is not an error.
 
 *below is running the command of ls with a path to a file, which is messages*
-![Image](lsfile.png)
+![Image](lsfile2.0.png)
 working directory was from home.
 this is not an error because after running the command ```ls lecture1/messages/cs.txt```, it reprinted the command. Because a text file does not contain other files, ```ls lecture1/messages/cs.txt``` can not list any other files.
 
