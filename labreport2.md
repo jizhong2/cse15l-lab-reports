@@ -6,12 +6,12 @@
 
 <br> Below are two ```/add-message``` on the webserver.
 <br> ![Image](webservermsgs.png)
-<br> Method, handleRequest() and getQuery(), was called on.
+<br> Methods, handleRequest() and getQuery(), was called on.
 <br> The relevant argument was ```URI url``` and relevant fields are ```String queryString```, ```String[] parameters```, ```String user```, and ```String message```.
 <br> ```String queryString``` is dependent on ```URI url```, and ```String[] parameters```, ```String user```, ```String message``` depend on ```String queryString```. Once ```/add-message``` following different queries are added to ```URI url```, it changes the values to ```String[] parameters```, ```String user```, ```String message```, which changes the printed messages on the webserver. In this case, getQuery() got the value of ```String user``` "jpolitz" and the value of ```String message``` "Hello", and it printed "jpolitz: Hello".
 
 <br> ![Image](webserver.png)
-<br> Method, handleRequest() and getQuery(), was called on.
+<br> Methods, handleRequest() and getQuery(), was called on.
 <br> The relevant argument was ```URI url``` and relevant fields are ```String queryString```, ```String[] parameters```, ```String user```, and ```String message```.
 <br> ```String queryString``` is dependent on ```URI url```, and ```String[] parameters```, ```String user```, ```String message``` depend on ```String queryString```. Once ```/add-message``` following different queries are added to ```URI url```, it changes the values to ```String[] parameters```, ```String user```, ```String message```, which changes the printed messages on the webserver. In this case, getQuery() got the value of ```String user``` "yash" and the value of ```String message``` "How are you", which printed "yash: How+are+you".
 
