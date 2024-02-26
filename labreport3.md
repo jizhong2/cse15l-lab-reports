@@ -17,7 +17,8 @@ The symptom, as the output of running the tests
 
 <br> The bug  
 Before:
--     static double averageWithoutLowestBuggy(double[] arr) {
+```
+static double averageWithoutLowestBuggy(double[] arr) {
           if(arr.length < 2) { return 0.0; }
           double lowest = arr[0];
 
@@ -31,9 +32,10 @@ Before:
             if(num != lowest) { sum += num; }
           }
           return sum / (arr.length - 1);
-      }
+```
 After:
--     static double averageWithoutLowest(double[] arr) {
+```
+static double averageWithoutLowest(double[] arr) {
         if(arr.length < 2) { return 0.0; }
         double lowest = arr[0];
 
@@ -52,6 +54,7 @@ After:
         }
         return sum / (counter);
       }
+```
 The fix was adding a counter that wasn't connected to the length of the array. Because some of the arrays may have repeated lowest integers,
 we needed to account for that. With the counter, the code will be able to keep track of the sum and number of integers without the repeated lowest integers.  
 
