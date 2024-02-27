@@ -112,6 +112,8 @@ technical/plos
 technical/biomed
 technical/911report
 ```
+<br> I asked ChatGPT what path is required for this command.
+
 <br> command 4: ```-d```
 <br> ```find technical/goverment -d 1``` lists out one level below the subdirectory government, which is in the technical directory. Since government also has subdirectories, when this command line is called, it will list out the subdirectories within the government subdirectory. This is useful to scope out files or directories and perform targeted searches, avoiding unecessary repetition.
 
@@ -124,19 +126,26 @@ technical/government/Gen_Account_Office
 technical/government/Post_Rate_Comm
 technical/government/Media
 ```
+<br> I asked ChatGPT what path is required for this command.
+
 <br> command 5: ```-delete```
 <br> ```find technical -type f -name "chapter-1.txt" -delete``` deletes the file named "chapter-1.txt" within the technical directory. This is useful as it allows for selective deletion, not having to delete massive files/directories at once.
-<br> ![Image](deletecommand1.png)
+<br> ```jialin@jialins-MacBook-Air docsearch % find technical -type f -name "chapter-1.txt" -delete```
+<br> I asked ChatGPT what path is required and whether it returns anything when you use ```-delete```. 
+
 <br> command 6: ```delete```
 <br> ```find technical -type f -name "chapter-2.txt" -delete``` deletes the file named "chapter-2.txt" within the technical directory.
-<br> ![Image](deletecommand2.png)
+<br> ```jialin@jialins-MacBook-Air docsearch % find technical -type f -name "chapter-2.txt" -delete```
+<br> I asked ChatGPT what path is required and whether it returns anything when you use ```-delete```. 
 
 <br> command 7: ```-empty```
 <br> ```find technical -type d -empty``` searches through directories and finds if there are any empty directories. This is useful to check if there are any miscellaneous directories without code/information.
+<br> ```jialin@jialins-MacBook-Air docsearch % find technical -type d -empty```
 
 <br> command 8: ```-empty```
-<br> ```find technical -type d -empty``` searches through files and finds if there are any empty files. THis is useful to check if there are any miscellaneous files without code/information.  
+<br> ```find technical -type f -empty``` searches through files and finds if there are any empty files. This is useful to check if there are any miscellaneous files without code/information.  
+<br> ```jialin@jialins-MacBook-Air docsearch % find technical -type f -empty```
+
 
 # Sources
 <br> I used [Linux find command](https://www.computerhope.com/unix/ufind.htm) to find different commands to use with ```find```.
-<br> To better understand the commands I was using, I used [ChatGPT](https://chat.openai.com/) for more indepth explanations and clearer instructions.
