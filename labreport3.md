@@ -130,11 +130,13 @@ technical/government/Media
 
 <br> command 5: ```-delete```
 <br> ```find technical -type f -name "chapter-1.txt" -delete``` deletes the file named "chapter-1.txt" within the technical directory. This is useful as it allows for selective deletion, not having to delete massive files/directories at once.
+
 <br> ```jialin@jialins-MacBook-Air docsearch % find technical -type f -name "chapter-1.txt" -delete```
 <br> I asked ChatGPT what path is required and whether it returns anything when you use ```-delete```. 
 
 <br> command 6: ```delete```
 <br> ```find technical -type f -name "chapter-2.txt" -delete``` deletes the file named "chapter-2.txt" within the technical directory.
+
 <br> ```jialin@jialins-MacBook-Air docsearch % find technical -type f -name "chapter-2.txt" -delete```
 <br> I asked ChatGPT what path is required and whether it returns anything when you use ```-delete```. 
 
