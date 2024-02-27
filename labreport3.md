@@ -142,10 +142,12 @@ technical/government/Media
 
 <br> command 7: ```-empty```
 <br> ```find technical -type d -empty``` searches through directories and finds if there are any empty directories. This is useful to check if there are any miscellaneous directories without code/information.
+
 <br> ```jialin@jialins-MacBook-Air docsearch % find technical -type d -empty```
 
 <br> command 8: ```-empty```
-<br> ```find technical -type f -empty``` searches through files and finds if there are any empty files. This is useful to check if there are any miscellaneous files without code/information.  
+<br> ```find technical -type f -empty``` searches through files and finds if there are any empty files. This is useful to check if there are any miscellaneous files without code/information.
+
 <br> ```jialin@jialins-MacBook-Air docsearch % find technical -type f -empty```
 
 
