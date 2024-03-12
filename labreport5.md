@@ -19,7 +19,7 @@ I was accidentally incrementing ```index2```, ```index1``` never changed values.
 continue to run forever, causing the TestTimeOutException.
 due to ```index1``` not changing.
 <br> ![Image](workedcodeinvim.png)
-<br> [Image](workedbashscript.png)
+<br> ![Image](workedbashscript.png)
 
 <br> *Set Up*
 <br> ![Image](setup.png)
